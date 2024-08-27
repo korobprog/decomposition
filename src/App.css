@@ -44,9 +44,7 @@
   align-items: stretch;
   /* flex-flow: nowrap; */
   flex-wrap: nowrap;
-
   background-color: #bbdefb;
-
   gap: 5px;
 }
 
@@ -85,4 +83,28 @@ a {
 .item-news {
   /* flex:0 1 auto; */
   align-self: center;
+}
+
+.flex-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  /* flex-flow: nowrap; */
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.imglogo {
+  height: 30px;
+  width: 30px;
+}
+
+.flex-adsimg {
+  display: flex;
+  justify-content: center;
+}
+
+.imglogo-box {
+  margin-bottom: 10px;
 }
